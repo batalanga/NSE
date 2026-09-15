@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+-
+- NeoScav Extended Override
+- Chiko
+-
+-->
+
+<pma_xml_export version="1.0">
+    <database name="neogame">
+        <table name="creaturesources">
+            <column name="id">3</column>
+            <column name="strName">Merga Wraith</column>
+            <column name="nX">-1</column>
+            <column name="nY">-1</column>
+            <column name="nCreatureID">5</column>
+            <column name="nMin">0</column>
+            <column name="nMax">0</column>
+            <column name="fWeight">0</column>
+        </table>
+		<table name="creaturesources">
+            <column name="id">9</column>
+            <column name="strName">DMC Pilgrim</column>
+            <column name="nX">56</column>
+            <column name="nY">191</column>
+            <column name="nCreatureID">NSE:24</column>
+            <column name="nMin">1</column>
+            <column name="nMax">1</column>
+            <column name="fWeight">0.1</column>
+        </table>
+		<table name="creaturesources">
+            <column name="id">10</column>
+            <column name="strName">Zom Zom's Bad Mutha</column>
+            <column name="nX">20</column>
+            <column name="nY">148</column>
+            <column name="nCreatureID">NSE:2</column>
+            <column name="nMin">1</column>
+            <column name="nMax">1</column>
+            <column name="fWeight">0.8</column>
+        </table>
+		<table name="creaturesources">
+            <column name="id">15</column>
+            <column name="strName">Midland Deer Pack</column>
+            <column name="nX">18</column>
+            <column name="nY">100</column>
+            <column name="nCreatureID">NSE:8</column>
+            <column name="nMin">1</column>
+            <column name="nMax">4</column>
+            <column name="fWeight">0.95</column>
+        </table>
+		<table name="creaturesources">
+            <column name="id">16</column>
+            <column name="strName">Eastern Deer Pack</column>
+            <column name="nX">42</column>
+            <column name="nY">30</column>
+            <column name="nCreatureID">NSE:8</column>
+            <column name="nMin">1</column>
+            <column name="nMax">4</column>
+            <column name="fWeight">0.7</column>
+        </table>
+		<table name="creaturesources">
+            <column name="id">17</column>
+            <column name="strName">Yezinka</column>
+            <column name="nX">-1</column>
+            <column name="nY">-1</column>
+            <column name="nCreatureID">9</column>
+            <column name="nMin">0</column>
+            <column name="nMax">0</column>
+            <column name="fWeight">0</column>
+        </table>
+		<table name="creaturesources">
+            <column name="id">18</column>
+            <column name="strName">DMC Guard</column>
+            <column name="nX">57</column>
+            <column name="nY">192</column>
+            <column name="nCreatureID">NSE:10</column>
+            <column name="nMin">2</column>
+            <column name="nMax">2</column>
+            <column name="fWeight">1</column>
+        </table>
+		<table name="creaturesources">
+            <column name="id">21</column>
+            <column name="strName">Midland Large Deer Pack</column>
+            <column name="nX">42</column>
+            <column name="nY">30</column>
+            <column name="nCreatureID">NSE:8</column>
+            <column name="nMin">3</column>
+            <column name="nMax">6</column>
+            <column name="fWeight">0.1</column>
+        </table>
+		<table name="creaturesources">
+            <column name="id">22</column>
+            <column name="strName">Pilgrim</column>
+            <column name="nX">40</column>
+            <column name="nY">108</column>
+            <column name="nCreatureID">NSE:24</column>
+            <column name="nMin">1</column>
+            <column name="nMax">1</column>
+            <column name="fWeight">0.8</column>
+        </table>
+		<table name="creaturesources">
+            <column name="id">23</column>
+            <column name="strName">King Elias</column>
+            <column name="nX">-1</column>
+            <column name="nY">-1</column>
+            <column name="nCreatureID">19</column>
+            <column name="nMin">1</column>
+            <column name="nMax">1</column>
+            <column name="fWeight">0</column>
+        </table>
+        <table name="creaturesources">
+            <column name="id">24</column>
+            <column name="strName">King Elias (no destroy)</column>
+            <column name="nX">-1</column>
+            <column name="nY">-1</column>
+            <column name="nCreatureID">20</column>
+            <column name="nMin">1</column>
+            <column name="nMax">1</column>
+            <column name="fWeight">0</column>
+        </table>
+        <table name="creaturesources">
+            <column name="id">25</column>
+            <column name="strName">King Elias (destroyed, to DMC)</column>
+            <column name="nX">-1</column>
+            <column name="nY">-1</column>
+            <column name="nCreatureID">21</column>
+            <column name="nMin">1</column>
+            <column name="nMax">1</column>
+            <column name="fWeight">0</column>
+        </table>
+        <table name="creaturesources">
+            <column name="id">26</column>
+            <column name="strName">Queen Liza (to Clearbone, then Saginaw)</column>
+            <column name="nX">-1</column>
+            <column name="nY">-1</column>
+            <column name="nCreatureID">22</column>
+            <column name="nMin">1</column>
+            <column name="nMax">1</column>
+            <column name="fWeight">0</column>
+        </table>
+		<table name="creaturesources">
+            <column name="id">30</column>
+            <column name="strName">Feral Dog Pack (BR, South Central)</column>
+            <column name="nX">20</column>
+            <column name="nY">158</column>
+            <column name="nCreatureID">26</column>
+            <column name="nMin">1</column>
+            <column name="nMax">2</column>
+            <column name="fWeight">0.32</column>
+        </table>
+        <table name="creaturesources">
+            <column name="id">31</column>
+            <column name="strName">Feral Dog Pack (NF, South Central)</column>
+            <column name="nX">20</column>
+            <column name="nY">158</column>
+            <column name="nCreatureID">27</column>
+            <column name="nMin">1</column>
+            <column name="nMax">2</column>
+            <column name="fWeight">0.32</column>
+        </table>
+        <table name="creaturesources">
+            <column name="id">32</column>
+            <column name="strName">Feral Dog Pack (BM, South Central)</column>
+            <column name="nX">20</column>
+            <column name="nY">158</column>
+            <column name="nCreatureID">28</column>
+            <column name="nMin">1</column>
+            <column name="nMax">2</column>
+            <column name="fWeight">0.32</column>
+        </table>
+    </database>
+</pma_xml_export>

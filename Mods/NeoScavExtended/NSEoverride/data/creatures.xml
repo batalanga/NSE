@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+-
+- NeoScav Extended Override
+- Chiko
+-
+-->
+
+<pma_xml_export version="1.0">
+    <database name="neogame">
+        <table name="creatures">
+            <column name="id">1</column>
+            <column name="strName">Dogman</column>
+            <column name="strNamePublic">Creature</column>
+            <column name="strNotes"></column>
+            <column name="strImg">CreDogman.png</column>
+            <column name="vEncounterIDs"></column>
+            <column name="nMovesPerTurn">3</column>
+            <column name="nTreasureID">3</column>
+            <column name="nFaction">1</column>
+            <column name="vAttackModes">7</column>
+            <column name="vBaseConditions">NSE:194=1,38=1,50=0.5,51=0.5,52=0.5,57=1,60=0.5,72=0.75,81=0.85,81=0.5,124=1.0,149=0.8,473=1,492=1,493=1,501=1,577=1,727=1,NSE:37=1,529=1</column>
+            <column name="nCorpseID">396</column> <!-- 396 Normal / NSE:157 Christmas -->
+            <column name="vActivities">pacing,licking a wound,grooming its fur,digging,sniffing the ground,sniffing the air</column>
+        </table>
+		<table name="creatures">
+            <column name="id">2</column>
+            <column name="strName">Looter</column>
+            <column name="strNamePublic">Stranger</column>
+            <column name="strNotes">Biddy personality</column>
+            <column name="strImg">CreHuman.png</column>
+            <column name="vEncounterIDs">NSE:80,1328,1362,1345,1335,1399</column>
+            <column name="nMovesPerTurn">4</column>
+            <column name="nTreasureID">70</column>
+            <column name="nFaction">2</column>
+            <column name="vAttackModes">1</column>
+            <column name="vBaseConditions">NSE:194=1,24=0.15,51=0.5,52=0.5,61=0.5,71=0.5,81=0.5,150=0.5,151=1,207=0.5,210=1,210=1,473=1,494=1,535=1,NSE:65=1,NSE:250=1</column>
+            <column name="nCorpseID">402</column>
+            <column name="vActivities">reading the label on some trash,picking their nose,counting on their fingers,pacing,standing guard</column>
+        </table>
+		<table name="creatures">
+            <column name="id">3</column>
+            <column name="strName">Enfield Horror</column>
+            <column name="strNamePublic">Creature</column>
+            <column name="strNotes">Trap/Ambush</column>
+            <column name="strImg">CreEnfieldHorror.png</column>
+            <column name="vEncounterIDs"></column>
+            <column name="nMovesPerTurn">5</column>
+            <column name="nTreasureID">3</column>
+            <column name="nFaction">7</column>
+            <column name="vAttackModes">1</column>
+            <column name="vBaseConditions">NSE:194=1,38=1,52=0.75,57=1,72=1,390=1,473=1,492=1,493=1,495=1,501=1,560=1,577=1,727=1,NSE:144=0.75,529=1</column>
+            <column name="nCorpseID">424</column>
+            <column name="vActivities">sniffing around,prowling through some underbrush,scratching itself,rooting around in the dirt</column>
+        </table>
+		<table name="creatures">
+            <column name="id">4</column>
+            <column name="strName">Blue Frog Preacher</column>
+            <column name="strNamePublic">Stranger</column>
+            <column name="strNotes"></column>
+            <column name="strImg">CreHuman.png</column>
+            <column name="vEncounterIDs">1397,1416</column>
+            <column name="nMovesPerTurn">4</column>
+            <column name="nTreasureID">71</column>
+            <column name="nFaction">4</column>
+            <column name="vAttackModes">1</column>
+            <column name="vBaseConditions">NSE:194=1,24=0.15,50=0.75,51=0.25,59=1,60=0.75,72=1,87=0.5,149=0.75,151=1,210=1,210=1,473=1,493=1,494=1,535=1,295=1,NSE:65=1,NSE:70=0.5,NSE:273=1,NSE:78=1</column>
+            <column name="nCorpseID">402</column>
+            <column name="vActivities">reciting something silently,picking at a scab,staring solemnly,testing their tolerance for pain</column>
+        </table>
+		<table name="creatures">
+            <column name="id">5</column>
+            <column name="strName">Merga Wraith</column>
+            <column name="strNamePublic">Merga Wraith</column>
+            <column name="strNotes"></column>
+            <column name="strImg">CreWraith.png</column>
+            <column name="vEncounterIDs"></column>
+            <column name="nMovesPerTurn">4</column>
+            <column name="nTreasureID">3</column>
+            <column name="nFaction">5</column>
+            <column name="vAttackModes">17</column>
+            <column name="vBaseConditions">NSE:213=1,35=1,38=1,50=1,51=1,57=1,NSE:218=1,124=1,367=1,370=1,492=1,495=1,501=1,502=1,503=1,577=1,727=1,837=1,NSE:8=1</column>
+            <column name="nCorpseID">490</column>
+            <column name="vActivities">staring back at you</column>
+        </table>
+		<table name="creatures">
+            <column name="id">6</column>
+            <column name="strName">Melonhead</column>
+            <column name="strNamePublic">Creature</column>
+            <column name="strNotes"></column>
+            <column name="strImg">CreMelonhead.png</column>
+            <column name="vEncounterIDs"></column>
+            <column name="nMovesPerTurn">3</column>
+            <column name="nTreasureID">352</column>
+            <column name="nFaction">6</column>
+            <column name="vAttackModes">1</column>
+            <column name="vBaseConditions">NSE:194=1,24=0.15,61=0.75,71=0.75,151=1,210=1,210=1,392=1,473=1,494=1,535=1,727=1,529=1</column>
+            <column name="nCorpseID">NSE:52</column>
+            <column name="vActivities">braying,drooling,listening to something</column>
+        </table>
+		<table name="creatures">
+            <column name="id">7</column>
+            <column name="strName">Enfield Horror</column>
+            <column name="strNamePublic">Enfield Horror</column>
+            <column name="strNotes"></column>
+            <column name="strImg">CreEnfieldHorror.png</column>
+            <column name="vEncounterIDs"></column>
+            <column name="nMovesPerTurn">5</column>
+            <column name="nTreasureID">3</column>
+            <column name="nFaction">7</column>
+            <column name="vAttackModes">1</column>
+            <column name="vBaseConditions">NSE:194=1,38=1,52=0.75,57=1,72=0.75,390=1,473=1,492=1,495=1,501=1,577=1,529=1</column>
+            <column name="nCorpseID">424</column>
+            <column name="vActivities">sniffing around,prowling through some underbrush,scratching itself,rooting around in the dirt</column>
+        </table>
+		<table name="creatures">
+            <column name="id">8</column>
+            <column name="strName">Squirrel</column>
+            <column name="strNamePublic">Squirrel</column>
+            <column name="strNotes"></column>
+            <column name="strImg">NSE:CreSquirrel.png</column>
+            <column name="vEncounterIDs"></column>
+            <column name="nMovesPerTurn">5</column>
+            <column name="nTreasureID">3</column>
+            <column name="nFaction">9</column>
+            <column name="vAttackModes">7</column>
+            <column name="vBaseConditions">NSE:194=1,52=1,57=1,61=1,71=1,81=1,370=1,492=0.25,501=1,502=1,577=1,727=1,NSE:177=1,NSE:20=1</column>
+            <column name="nCorpseID">NSE:6</column>
+            <column name="vActivities">grooming itself,scampering about,looking scared,looking concerned,sniffing around</column>
+        </table>
+		<table name="creatures">
+            <column name="id">9</column>
+            <column name="strName">Yezinka</column>
+            <column name="strNamePublic">Yezinka</column>
+            <column name="strNotes"></column>
+            <column name="strImg">CreYezinka.png</column>
+            <column name="vEncounterIDs">1189</column>
+            <column name="nMovesPerTurn">4</column>
+            <column name="nTreasureID">473</column>
+            <column name="nFaction">10</column>
+            <column name="vAttackModes">1</column>
+            <column name="vBaseConditions">NSE:194=1,38=1,50=1,51=1,52=1,57=1,81=1,124=1,151=1,462=1,464=1,492=1,495=1,501=1,502=1,577=1,727=1</column>
+            <column name="nCorpseID">NSE:52</column>
+            <column name="vActivities">sharpening her fingernails,examining a small round object,listening carefully</column>
+        </table>
+		<table name="creatures">
+            <column name="id">10</column>
+            <column name="strName">Looter</column>
+            <column name="strNamePublic">Stranger</column>
+            <column name="strNotes">Shifty personality</column>
+            <column name="strImg">CreHuman.png</column>
+            <column name="vEncounterIDs">NSE:80,1334,1384,1394,1400</column>
+            <column name="nMovesPerTurn">4</column>
+            <column name="nTreasureID">70</column>
+            <column name="nFaction">2</column>
+            <column name="vAttackModes">1</column>
+            <column name="vBaseConditions">NSE:194=1,24=0.15,51=0.5,52=0.5,61=0.5,71=0.5,81=0.5,150=0.5,151=1,207=0.5,210=1,210=1,473=1,494=1,535=1,NSE:65=1,NSE:70=0.25,NSE:250=1</column>
+            <column name="nCorpseID">402</column>
+            <column name="vActivities">reading the label on some trash,picking their nose,counting on their fingers,pacing,standing guard</column>
+        </table>
+		<table name="creatures">
+            <column name="id">11</column>
+            <column name="strName">Looter</column>
+            <column name="strNamePublic">Stranger</column>
+            <column name="strNotes">Rita personality</column>
+            <column name="strImg">CreHuman.png</column>
+            <column name="vEncounterIDs">NSE:80,1376,1377,1383,1401</column>
+            <column name="nMovesPerTurn">4</column>
+            <column name="nTreasureID">70</column>
+            <column name="nFaction">2</column>
+            <column name="vAttackModes">1</column>
+            <column name="vBaseConditions">NSE:194=1,24=0.15,51=0.5,52=0.5,61=0.5,71=0.5,81=0.5,150=0.5,151=1,207=0.5,210=1,210=1,473=1,494=1,535=1,NSE:65=1,NSE:70=0.25,NSE:250=1</column>
+            <column name="nCorpseID">402</column>
+            <column name="vActivities">reading the label on some trash,checking nosehairs in her reflection,checking armpit smell,pacing,standing guard</column>
+        </table>
+        <table name="creatures">
+            <column name="id">12</column>
+            <column name="strName">Looter</column>
+            <column name="strNamePublic">Stranger</column>
+            <column name="strNotes">John personality</column>
+            <column name="strImg">CreHuman.png</column>
+            <column name="vEncounterIDs">NSE:80,1367,1332,1333,1402</column>
+            <column name="nMovesPerTurn">4</column>
+            <column name="nTreasureID">70</column>
+            <column name="nFaction">2</column>
+            <column name="vAttackModes">1</column>
+            <column name="vBaseConditions">NSE:194=1,24=0.15,51=0.5,52=0.5,61=0.5,71=0.5,81=0.5,150=0.75,151=1,207=0.5,210=1,210=1,473=1,494=1,535=1,NSE:65=1,NSE:70=0.25,NSE:250=1</column>
+            <column name="nCorpseID">402</column>
+            <column name="vActivities">reading the label on some trash,stretching his back muscles,limbering up,pacing,standing guard</column>
+        </table>
+        <table name="creatures">
+            <column name="id">13</column>
+            <column name="strName">Looter</column>
+            <column name="strNamePublic">Stranger</column>
+            <column name="strNotes">Kim personality</column>
+            <column name="strImg">CreHuman.png</column>
+            <column name="vEncounterIDs">NSE:80,1391,1395,1382,1403</column>
+            <column name="nMovesPerTurn">4</column>
+            <column name="nTreasureID">70</column>
+            <column name="nFaction">2</column>
+            <column name="vAttackModes">1</column>
+            <column name="vBaseConditions">NSE:194=1,24=0.15,51=0.5,52=0.5,61=0.5,71=0.5,81=0.5,150=0.75,151=1,207=0.5,210=1,210=1,473=1,494=1,535=1,NSE:65=1,NSE:70=0.25,NSE:250=1</column>
+            <column name="nCorpseID">402</column>
+            <column name="vActivities">reading the label on some trash,looking around cautiously,listening,pacing,standing guard</column>
+        </table>
+		<table name="creatures">
+            <column name="id">14</column>
+            <column name="strName">Feral</column>
+            <column name="strNamePublic">Stranger</column>
+            <column name="strNotes">Almost Wendigo</column>
+            <column name="strImg">CreHuman.png</column>
+            <column name="vEncounterIDs"></column>
+            <column name="nMovesPerTurn">2</column>
+            <column name="nTreasureID">NSE:606</column>
+            <column name="nFaction">10</column>
+            <column name="vAttackModes">1</column>
+            <column name="vBaseConditions">NSE:194=1,50=1,51=0.75,72=1,122=1,151=1,454=1,473=1,493=1,494=1,495=1,535=1,727=1,NSE:65=1,NSE:144=0.5,NSE:252=1</column>
+            <column name="nCorpseID">402</column>
+            <column name="vActivities">mumbling things to himself,screaming names,standing guard,looking around,swatting at bugs</column>
+        </table>
+		<table name="creatures">
+            <column name="id">15</column>
+            <column name="strName">ATN Warrior</column>
+            <column name="strNamePublic">Stranger</column>
+            <column name="strNotes">ATN Warrior Female</column>
+            <column name="strImg">CreATN.png</column>
+            <column name="vEncounterIDs">NSE:76,1509,1508,1540</column>
+            <column name="nMovesPerTurn">4</column>
+            <column name="nTreasureID">559</column>
+            <column name="nFaction">11</column>
+            <column name="vAttackModes">1</column>
+            <column name="vBaseConditions">NSE:194=1,35=0.5,50=0.75,51=0.75,52=0.75,60=0.3,72=0.3,81=0.5,122=0.5,149=0.75,151=1,207=0.5,210=1,210=1,462=0.75,535=1,NSE:65=1,NSE:267=1,NSE:283=1,NSE:80=1,NSE:84=0.4</column>
+            <column name="nCorpseID">402</column>
+            <column name="vActivities">examining some plants,examining some tracks,watching the trees,looking around,standing guard</column>
+        </table>
+        <table name="creatures">
+            <column name="id">16</column>
+            <column name="strName">ATN Warrior</column>
+            <column name="strNamePublic">Stranger</column>
+            <column name="strNotes">ATN Warrior Male</column>
+            <column name="strImg">CreATN.png</column>
+            <column name="vEncounterIDs">NSE:76,1510,1516,1537</column>
+            <column name="nMovesPerTurn">4</column>
+            <column name="nTreasureID">559</column>
+            <column name="nFaction">11</column>
+            <column name="vAttackModes">1</column>
+            <column name="vBaseConditions">NSE:194=1,35=0.5,50=0.75,51=0.75,52=0.75,60=0.3,72=0.3,81=0.5,122=0.5,149=0.75,151=1,207=0.5,210=1,210=1,462=0.75,535=1,NSE:65=1,NSE:267=1,NSE:283=1,NSE:80=1,NSE:84=0.2</column>
+            <column name="nCorpseID">402</column>
+            <column name="vActivities">examining some plants,examining some tracks,watching the trees,looking around,standing guard</column>
+        </table>
+		<table name="creatures">
+            <column name="id">17</column>
+            <column name="strName">ATN Warrior</column>
+            <column name="strNamePublic">Stranger</column>
+            <column name="strNotes">ATN Slayer</column>
+            <column name="strImg">NSE:CreATN2.png</column>
+            <column name="vEncounterIDs">NSE:92,NSE:75,NSE:76,NSE:71,NSE:72,NSE:81</column>
+            <column name="nMovesPerTurn">4</column>
+            <column name="nTreasureID">NSE:262</column>
+            <column name="nFaction">11</column>
+            <column name="vAttackModes">1</column>
+            <column name="vBaseConditions">NSE:194=1,35=0.5,50=0.75,51=0.75,52=0.75,60=0.3,72=0.3,81=0.5,122=0.5,149=0.75,151=1,207=0.5,210=1,210=1,462=0.75,NSE:65=1,NSE:267=1,NSE:283=1,NSE:80=1,NSE:84=0.8</column>
+            <column name="nCorpseID">402</column>
+            <column name="vActivities">surveying the area,examining some tracks,watching the trees,looking around,standing guard</column>
+        </table>
+		<table name="creatures">
+            <column name="id">18</column>
+            <column name="strName">Blue Frog Cultist</column>
+            <column name="strNamePublic">Stranger</column>
+            <column name="strNotes"></column>
+            <column name="strImg">CreHuman.png</column>
+            <column name="vEncounterIDs">1397,1416</column>
+            <column name="nMovesPerTurn">4</column>
+            <column name="nTreasureID">597</column>
+            <column name="nFaction">4</column>
+            <column name="vAttackModes">1</column>
+            <column name="vBaseConditions">NSE:194=1,50=0.75,51=0.5,59=1,60=0.75,72=1,87=0.75,149=0.75,151=1,210=1,210=1,473=1,493=1,494=1,535=1,NSE:65=1,NSE:70=0.25,NSE:273=0.1,NSE:277=1,NSE:78=1</column>
+            <column name="nCorpseID">402</column>
+            <column name="vActivities">reciting something silently,picking at a scab,staring solemnly,testing their tolerance for pain</column>
+        </table>
+        <table name="creatures">
+            <column name="id">19</column>
+            <column name="strName">King Elias</column>
+            <column name="strNamePublic">Stranger</column>
+            <column name="strNotes">King pilgrimage to destroy Clearbone then to DMC</column>
+            <column name="strImg">CreHuman.png</column>
+            <column name="vEncounterIDs">1728,1729,1905</column>
+            <column name="nMovesPerTurn">4</column>
+            <column name="nTreasureID">612</column>
+            <column name="nFaction">12</column>
+            <column name="vAttackModes">1</column>
+            <column name="vBaseConditions">NSE:194=1,51=1,60=1,72=1,87=1,149=1,151=1,210=1,210=1,495=1,535=1,628=1,629=1,630=1,632=1,NSE:65=1,NSE:453=1</column>
+            <column name="nCorpseID">NSE:172</column>
+            <column name="vActivities">reciting something silently,picking at a scab,staring solemnly,testing his tolerance for pain</column>
+        </table>
+        <table name="creatures">
+            <column name="id">20</column>
+            <column name="strName">King Elias</column>
+            <column name="strNamePublic">Stranger</column>
+            <column name="strNotes">King pilgrimage to Clearbone then to Saginaw</column>
+            <column name="strImg">CreHuman.png</column>
+            <column name="vEncounterIDs">1728,1729,1905</column>
+            <column name="nMovesPerTurn">4</column>
+            <column name="nTreasureID">612</column>
+            <column name="nFaction">4</column>
+            <column name="vAttackModes">1</column>
+            <column name="vBaseConditions">NSE:194=1,51=1,60=1,72=1,87=1,149=1,151=1,210=1,210=1,495=1,535=1,628=1,630=1,632=1,643=1,NSE:65=1,NSE:453=1</column>
+            <column name="nCorpseID">NSE:172</column>
+            <column name="vActivities">reciting something silently,picking at a scab,staring solemnly,testing his tolerance for pain</column>
+        </table>
+        <table name="creatures">
+            <column name="id">21</column>
+            <column name="strName">King Elias</column>
+            <column name="strNamePublic">Stranger</column>
+            <column name="strNotes">King already destroyed Clearbone and on to DMC</column>
+            <column name="strImg">CreHuman.png</column>
+            <column name="vEncounterIDs">1728,1729,1905</column>
+            <column name="nMovesPerTurn">4</column>
+            <column name="nTreasureID">642</column>
+            <column name="nFaction">12</column>
+            <column name="vAttackModes">1</column>
+            <column name="vBaseConditions">NSE:194=1,51=1,60=1,72=1,87=1,149=1,151=1,210=1,210=1,495=1,535=1,629=1,630=1,632=1,NSE:65=1,NSE:453=1</column>
+            <column name="nCorpseID">NSE:172</column>
+            <column name="vActivities">reciting something silently,picking at a scab,staring solemnly,testing his tolerance for pain</column>
+        </table>
+        <table name="creatures">
+            <column name="id">22</column>
+            <column name="strName">Queen Liza</column>
+            <column name="strNamePublic">Stranger</column>
+            <column name="strNotes">Queen pilgrimage to Clearbone then to Saginaw</column>
+            <column name="strImg">CreHuman.png</column>
+            <column name="vEncounterIDs">1741,1791,1906</column>
+            <column name="nMovesPerTurn">4</column>
+            <column name="nTreasureID">612</column>
+            <column name="nFaction">4</column>
+            <column name="vAttackModes">1</column>
+            <column name="vBaseConditions">NSE:194=1,51=1,60=1,72=1,87=1,149=1,151=1,210=1,210=1,495=1,535=1,628=1,630=1,632=1,643=1,NSE:65=1,NSE:334=1,NSE:453=1</column>
+            <column name="nCorpseID">402</column>
+            <column name="vActivities">reciting something silently,staring solemnly,working something out in her head</column>
+        </table>
+		<table name="creatures">
+            <column name="id">23</column>
+            <column name="strName">Philip</column>
+            <column name="strNamePublic">Philip</column>
+            <column name="strNotes">Base player stats</column>
+            <column name="strImg">Person.png</column>
+            <column name="vEncounterIDs"></column>
+            <column name="nMovesPerTurn">5</column>
+            <column name="nTreasureID">3</column>
+            <column name="nFaction">0</column>
+            <column name="vAttackModes">1</column>
+            <column name="vBaseConditions">NSE:147=1,NSE:194=1,151=1,210=1,210=1,223=1,224=1,225=1,412=1,420=1,495=1,819=1,820=1,821=1,822=1,NSE:65=1,NSE:86=1,NSE:121=1,NSE:373=1,NSE:457=1</column>
+            <column name="nCorpseID">NSE:611</column>
+            <column name="vActivities">ignored for players</column>
+        </table>
+        <table name="creatures">
+            <column name="id">24</column>
+            <column name="strName">Martha's Army Soldier</column>
+            <column name="strNamePublic">Stranger</column>
+            <column name="strNotes">JD</column>
+            <column name="strImg">CreMA1.png</column>
+            <column name="vEncounterIDs">NSE:78,2104,2105,2106,2114</column>
+            <column name="nMovesPerTurn">4</column>
+            <column name="nTreasureID">708</column>
+            <column name="nFaction">13</column>
+            <column name="vAttackModes">1</column>
+            <column name="vBaseConditions">NSE:194=1,51=0.5,52=0.5,61=0.25,72=0.25,81=0.75,150=0.25,151=1,207=0.5,210=1,210=1,473=1,494=1,535=1,776=1,NSE:65=1,NSE:70=0.25,NSE:168=1</column>
+            <column name="nCorpseID">402</column>
+            <column name="vActivities">shielding his face from the sky,checking his face paint,polishing his weapon,reciting something solemnly,smashing something electronic</column>
+        </table>
+        <table name="creatures">
+            <column name="id">25</column>
+            <column name="strName">Martha's Army Soldier</column>
+            <column name="strNamePublic">Stranger</column>
+            <column name="strNotes">Recruiter</column>
+            <column name="strImg">CreMA2.png</column>
+            <column name="vEncounterIDs">NSE:78,2118,2119,2120,2121</column>
+            <column name="nMovesPerTurn">4</column>
+            <column name="nTreasureID">708</column>
+            <column name="nFaction">13</column>
+            <column name="vAttackModes">1</column>
+            <column name="vBaseConditions">NSE:194=1,51=0.5,52=0.5,61=0.25,72=0.25,81=0.75,150=0.25,151=1,207=0.5,210=1,210=1,473=1,494=1,535=1,776=1,NSE:65=1,NSE:70=0.25,NSE:168=1</column>
+            <column name="nCorpseID">402</column>
+            <column name="vActivities">shielding her face from the sky,checking her face paint,polishing her weapon,reciting something solemnly,smashing something electronic</column>
+        </table>
+		<table name="creatures">
+            <column name="id">26</column>
+            <column name="strName">Feral Dog</column>
+            <column name="strNamePublic">Dog</column>
+            <column name="strNotes">Golden Retriever</column>
+            <column name="strImg">CreDogGR.png</column>
+            <column name="vEncounterIDs"></column>
+            <column name="nMovesPerTurn">4</column>
+            <column name="nTreasureID">3</column>
+            <column name="nFaction">14</column>
+            <column name="vAttackModes">61</column>
+            <column name="vBaseConditions">NSE:194=1,52=0.5,71=0.75,57=1,124=0.75,149=0.4,473=1,577=1,727=1,858=1,NSE:20=1</column>
+            <column name="nCorpseID">757</column>
+            <column name="vActivities">licking itself,sniffing the air,pacing,digging</column>
+        </table>
+        <table name="creatures">
+            <column name="id">27</column>
+            <column name="strName">Feral Dog</column>
+            <column name="strNamePublic">Dog</column>
+            <column name="strNotes">Black Lab/Newfoundland</column>
+            <column name="strImg">CreDogNF.png</column>
+            <column name="vEncounterIDs"></column>
+            <column name="nMovesPerTurn">4</column>
+            <column name="nTreasureID">3</column>
+            <column name="nFaction">14</column>
+            <column name="vAttackModes">61</column>
+            <column name="vBaseConditions">NSE:194=1,52=0.5,71=0.75,57=1,124=0.75,149=0.4,473=1,577=1,727=1,858=1,NSE:20=1</column>
+            <column name="nCorpseID">757</column>
+            <column name="vActivities">licking itself,sniffing the air,pacing,digging</column>
+        </table>
+        <table name="creatures">
+            <column name="id">28</column>
+            <column name="strName">Feral Dog</column>
+            <column name="strNamePublic">Dog</column>
+            <column name="strNotes">Bernese Mountain</column>
+            <column name="strImg">CreDogBM.png</column>
+            <column name="vEncounterIDs"></column>
+            <column name="nMovesPerTurn">4</column>
+            <column name="nTreasureID">3</column>
+            <column name="nFaction">14</column>
+            <column name="vAttackModes">61</column>
+            <column name="vBaseConditions">NSE:194=1,52=0.5,71=0.75,57=1,124=0.75,149=0.4,473=1,577=1,727=1,858=1,NSE:20=1</column>
+            <column name="nCorpseID">757</column>
+            <column name="vActivities">licking itself,sniffing the air,pacing,digging</column>
+        </table>
+    </database>
+</pma_xml_export>

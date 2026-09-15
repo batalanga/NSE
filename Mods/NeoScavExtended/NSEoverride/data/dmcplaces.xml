@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+-
+- NeoScav Extended Override
+- Chiko
+-
+-->
+
+<pma_xml_export version="1.0">
+    <database name="neogame">
+        <table name="dmcplaces">
+            <column name="id">2</column>
+            <column name="strImg">btn_dmc_health</column>
+            <column name="nEncounterID">842</column>
+            <column name="nX">435</column>
+            <column name="nY">216</column>
+        </table>
+    </database>
+</pma_xml_export>

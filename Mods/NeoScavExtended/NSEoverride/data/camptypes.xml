@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+-
+- NeoScav Extended Override
+- Chiko
+-
+-->
+
+<pma_xml_export version="1.0">
+    <database name="neogame">
+        <table name="camptypes">
+            <column name="id">1</column>
+            <column name="strDesc">any old spot on the ground</column>
+            <column name="vImageList">ItmScavengeGrass01.png</column>
+            <column name="aCapacities">35x25</column>
+            <column name="nTreasureID">3</column>
+            <column name="m_fAlertness">0</column>
+            <column name="m_fVisibility">-0.05</column>
+            <column name="WetTempAdjustMod">0</column>
+            <column name="m_fHealPerHourMod">0</column>
+            <column name="fSleepQuality">-0.26</column>
+        </table>
+		<table name="camptypes">
+            <column name="id">2</column>
+            <column name="strDesc">a 5x10 unit in a U-Stash-It self-storage facility</column>
+            <column name="vImageList">ItmScavengeGarage01.png</column>
+            <column name="aCapacities">30x20</column>
+            <column name="nTreasureID">3</column>
+            <column name="m_fAlertness">0.2</column>
+            <column name="m_fVisibility">-0.8</column>
+            <column name="WetTempAdjustMod">-15</column>
+            <column name="m_fHealPerHourMod">0.04</column>
+            <column name="fSleepQuality">-0.18</column>
+        </table>
+		<table name="camptypes">
+            <column name="id">3</column>
+            <column name="strDesc">the woods</column>
+            <column name="vImageList">ItmScavengeForest01.png</column>
+            <column name="aCapacities">34x24</column>
+            <column name="nTreasureID">3</column>
+            <column name="m_fAlertness">0.2</column>
+            <column name="m_fVisibility">-0.6</column>
+            <column name="WetTempAdjustMod">-3</column>
+            <column name="m_fHealPerHourMod">0.005</column>
+            <column name="fSleepQuality">-0.23</column>
+        </table>
+		<table name="camptypes">
+            <column name="id">4</column>
+            <column name="strDesc">a dense thicket of trees</column>
+            <column name="vImageList">NSE:ItmScavengeTrees01.png</column>
+            <column name="aCapacities">32x22</column>
+            <column name="nTreasureID">3</column>
+            <column name="m_fAlertness">0.4</column>
+            <column name="m_fVisibility">-0.8</column>
+            <column name="WetTempAdjustMod">-5</column>
+            <column name="m_fHealPerHourMod">0.01</column>
+            <column name="fSleepQuality">-0.18</column>
+        </table>
+		<table name="camptypes">
+            <column name="id">5</column>
+            <column name="strDesc">a burned-out apartment</column>
+            <column name="vImageList">ItmScavengeApt01.png</column>
+            <column name="aCapacities">28x25</column>
+            <column name="nTreasureID">NSE:208</column>
+            <column name="m_fAlertness">0.2</column>
+            <column name="m_fVisibility">-0.5</column>
+            <column name="WetTempAdjustMod">-12</column>
+            <column name="m_fHealPerHourMod">0.03</column>
+            <column name="fSleepQuality">-0.14</column>
+        </table>
+		<table name="camptypes">
+            <column name="id">6</column>
+            <column name="strDesc">a ruined bungalow</column>
+            <column name="vImageList">ItmScavengeHouse01.png</column>
+            <column name="aCapacities">26x25</column>
+            <column name="nTreasureID">NSE:208</column>
+            <column name="m_fAlertness">0.2</column>
+            <column name="m_fVisibility">-0.4</column>
+            <column name="WetTempAdjustMod">-13</column>
+            <column name="m_fHealPerHourMod">0.03</column>
+            <column name="fSleepQuality">-0.14</column>
+        </table>
+		<table name="camptypes">
+            <column name="id">7</column>
+            <column name="strDesc">an abandoned IT office</column>
+            <column name="vImageList">ItmScavengeOffice01.png</column>
+            <column name="aCapacities">24x25</column>
+            <column name="nTreasureID">NSE:207</column>
+            <column name="m_fAlertness">0.2</column>
+            <column name="m_fVisibility">-0.8</column>
+            <column name="WetTempAdjustMod">-15</column>
+            <column name="m_fHealPerHourMod">0.02</column>
+            <column name="fSleepQuality">-0.17</column>
+        </table>
+		<table name="camptypes">
+            <column name="id">8</column>
+            <column name="strDesc">Exam Room 17</column>
+            <column name="vImageList">ItmScavengeCryo01.png</column>
+            <column name="aCapacities">22x25</column>
+            <column name="nTreasureID">163</column>
+            <column name="m_fAlertness">0.3</column>
+            <column name="m_fVisibility">-0.8</column>
+            <column name="WetTempAdjustMod">-15</column>
+            <column name="m_fHealPerHourMod">0.04</column>
+            <column name="fSleepQuality">-0.18</column>
+        </table>
+		<table name="camptypes">
+            <column name="id">9</column>
+            <column name="strDesc">a burnt shell of a building</column>
+            <column name="vImageList">ItmScavengeGBS01.png</column>
+            <column name="aCapacities">20x20</column>
+            <column name="nTreasureID">3</column>
+            <column name="m_fAlertness">0.4</column>
+            <column name="m_fVisibility">-0.8</column>
+            <column name="WetTempAdjustMod">-5</column>
+            <column name="m_fHealPerHourMod">0</column>
+            <column name="fSleepQuality">-0.18</column>
+        </table>
+		<table name="camptypes">
+            <column name="id">10</column>
+            <column name="strDesc">Clearbone Valley Basement</column>
+            <column name="vImageList">ItmScavengeClearbone.png</column>
+            <column name="aCapacities">21x24</column>
+            <column name="nTreasureID">615</column>
+            <column name="m_fAlertness">0.3</column>
+            <column name="m_fVisibility">-0.8</column>
+            <column name="WetTempAdjustMod">-15</column>
+            <column name="m_fHealPerHourMod">0.04</column>
+            <column name="fSleepQuality">-0.18</column>
+        </table>
+		<table name="camptypes">
+            <column name="id">11</column>
+            <column name="strDesc">a pickup truck</column>
+            <column name="vImageList">ItmScavengeCar03.png</column>
+            <column name="aCapacities">16x20</column>
+            <column name="nTreasureID">734</column>
+            <column name="m_fAlertness">0.2</column>
+            <column name="m_fVisibility">-0.8</column>
+            <column name="WetTempAdjustMod">-15</column>
+            <column name="m_fHealPerHourMod">0.04</column>
+            <column name="fSleepQuality">-0.12</column>
+        </table>
+        <table name="camptypes">
+            <column name="id">12</column>
+            <column name="strDesc">a hatchback</column>
+            <column name="vImageList">ItmScavengeCar02.png</column>
+            <column name="aCapacities">14x16</column>
+            <column name="nTreasureID">735</column>
+            <column name="m_fAlertness">0.2</column>
+            <column name="m_fVisibility">-0.8</column>
+            <column name="WetTempAdjustMod">-15</column>
+            <column name="m_fHealPerHourMod">0.04</column>
+            <column name="fSleepQuality">0</column>
+        </table>
+        <table name="camptypes">
+            <column name="id">13</column>
+            <column name="strDesc">a full-size van</column>
+            <column name="vImageList">ItmScavengeCar01.png</column>
+            <column name="aCapacities">18x20</column>
+            <column name="nTreasureID">735</column>
+            <column name="m_fAlertness">0.2</column>
+            <column name="m_fVisibility">-0.8</column>
+            <column name="WetTempAdjustMod">-15</column>
+            <column name="m_fHealPerHourMod">0.05</column>
+            <column name="fSleepQuality">0.18</column>
+        </table>
+		<table name="camptypes">
+            <column name="id">14</column>
+            <column name="strDesc">open ground near a communal trash fire</column>
+            <column name="vImageList">ItmScavengeSprawl01.png</column>
+            <column name="aCapacities">25x25</column>
+            <column name="nTreasureID">754</column>
+            <column name="m_fAlertness">0.4</column>
+            <column name="m_fVisibility">-0.5</column>
+            <column name="WetTempAdjustMod">0</column>
+            <column name="m_fHealPerHourMod">0</column>
+            <column name="fSleepQuality">-0.36</column>
+        </table>
+    </database>
+</pma_xml_export>

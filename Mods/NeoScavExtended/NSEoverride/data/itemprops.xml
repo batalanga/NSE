@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+-
+- NeoScav Extended Override
+- Chiko
+-
+-->
+
+<pma_xml_export version="1.0">
+    <database name="neogame">
+        <table name="itemprops">
+            <column name="nID">5</column>
+            <column name="strPropertyName">screwdriver</column>
+        </table>
+        <table name="itemprops">
+            <column name="nID">6</column>
+            <column name="strPropertyName">flat point/end</column>
+        </table>
+		<table name="itemprops">
+            <column name="nID">12</column>
+            <column name="strPropertyName">organic</column>
+        </table>
+		<table name="itemprops">
+            <column name="nID">19</column>
+            <column name="strPropertyName">flexible/inelastic</column>
+        </table>
+		<table name="itemprops">
+            <column name="nID">23</column>
+            <column name="strPropertyName">trapping related</column>
+        </table>
+		<table name="itemprops">
+            <column name="nID">30</column>
+            <column name="strPropertyName">chambered in .308</column>
+        </table>
+		<table name="itemprops">
+            <column name="nID">34</column>
+            <column name="strPropertyName">lockpicking related</column>
+        </table>
+		<table name="itemprops">
+            <column name="nID">35</column>
+            <column name="strPropertyName">burnt</column>
+        </table>
+		<table name="itemprops">
+            <column name="nID">37</column>
+            <column name="strPropertyName">liquid absorbent</column>
+        </table>
+		<table name="itemprops">
+            <column name="nID">41</column>
+            <column name="strPropertyName">mechanic related</column>
+        </table>
+		<table name="itemprops">
+            <column name="nID">42</column>
+            <column name="strPropertyName">HVAC</column>
+        </table>
+		<table name="itemprops">
+            <column name="nID">43</column>
+            <column name="strPropertyName">technologically advanced</column>
+        </table>
+		<table name="itemprops">
+            <column name="nID">44</column>
+            <column name="strPropertyName">electrician related</column>
+        </table>
+		<table name="itemprops">
+            <column name="nID">51</column>
+            <column name="strPropertyName">ranged related</column>
+        </table>
+		<table name="itemprops">
+            <column name="nID">53</column>
+            <column name="strPropertyName">wheel</column>
+        </table>
+		<table name="itemprops">
+            <column name="nID">55</column>
+            <column name="strPropertyName">frame/receiver</column>
+        </table>
+		<table name="itemprops">
+            <column name="nID">57</column>
+            <column name="strPropertyName">botany related</column>
+        </table>
+		<table name="itemprops">
+            <column name="nID">59</column>
+            <column name="strPropertyName">archery bow</column>
+        </table>
+		<table name="itemprops">
+            <column name="nID">61</column>
+            <column name="strPropertyName">chambered in 12-gauge</column>
+        </table>
+		<table name="itemprops">
+            <column name="nID">63</column>
+            <column name="strPropertyName">combat related</column>
+        </table>
+		<table name="itemprops">
+            <column name="nID">69</column>
+            <column name="strPropertyName">computer</column>
+        </table>
+		<table name="itemprops">
+            <column name="nID">79</column>
+            <column name="strPropertyName">mobile phone</column>
+        </table>
+		<table name="itemprops">
+            <column name="nID">80</column>
+            <column name="strPropertyName">tactical</column>
+        </table>
+		<table name="itemprops">
+            <column name="nID">84</column>
+            <column name="strPropertyName">footwear</column>
+        </table>
+		<table name="itemprops">
+            <column name="nID">95</column>
+            <column name="strPropertyName">rifle stock</column>
+        </table>
+		<table name="itemprops">
+            <column name="nID">96</column>
+            <column name="strPropertyName">DMC drone part</column>
+        </table>
+		<table name="itemprops">
+            <column name="nID">103</column>
+            <column name="strPropertyName">trousers/pants</column>
+        </table>
+    </database>
+</pma_xml_export>

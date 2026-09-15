@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+-
+- NeoScav Extended Override
+- Chiko
+-
+-->
+
+<pma_xml_export version="1.0">
+    <database name="neogame">
+        <table name="factions">
+            <column name="id">1</column>
+            <column name="strName">Dogmen</column>
+            <column name="dictFactions">0=-100,1=1,2=-100,3=-100,4=-100,5=-100,6=-100,7=-100,8=-100,9=-100,10=-100,11=-100,12=-100,13=-100,14=-100,NSE:1=-100,NSE:2=100,NSE:3=-100,NSE:4=-100,NSE:5=-100,NSE:6=-100,NSE:7=-100</column>
+        </table>
+        <table name="factions">
+            <column name="id">2</column>
+            <column name="strName">Looters</column>
+            <column name="dictFactions">0=0,1=-10,2=0,3=-5,4=-5,5=-10,6=-10,7=-10,8=-10,9=0,10=-100,11=0,12=0,13=0,14=-10,NSE:1=0,NSE:2=100,NSE:3=-100,NSE:4=-100,NSE:5=10,NSE:6=0,NSE:6=-10,NSE:7=-30</column>
+        </table>
+        <table name="factions">
+            <column name="id">3</column>
+            <column name="strName">Bad Mutha</column>
+            <column name="dictFactions">0=-5,1=-100,2=-50,3=60,4=-10,5=-100,6=-10,7=-10,8=-10,9=-10,10=-100,11=-10,12=-10,13=-10,14=-10,NSE:1=-10,NSE:2=100,NSE:3=-100,NSE:4=-100,NSE:5=-100,NSE:6=-100,NSE:7=0</column>
+        </table>
+        <table name="factions">
+            <column name="id">4</column>
+            <column name="strName">Blue Frogs</column>
+            <column name="dictFactions">0=-3,1=-100,2=-3,3=-10,4=10,5=-10,6=-10,7=-10,8=-10,9=-10,10=-100,11=-10,12=10,13=-10,14=-10,NSE:1=-10,NSE:2=100,NSE:3=-100,NSE:4=-100,NSE:5=-100,NSE:6=0,NSE:7=-20</column>
+        </table>
+        <table name="factions">
+            <column name="id">5</column>
+            <column name="strName">Merga Wraith</column>
+            <column name="dictFactions">0=-100,1=-100,2=-100,3=-100,4=-100,5=-100,6=-100,7=-100,8=-100,9=-100,10=-100,11=-100,12=10,13=-100,14=-100,NSE:1=-100,NSE:2=100,NSE:3=-100,NSE:4=-100,NSE:5=-100,NSE:6=-100,NSE:7=-100</column>
+        </table>
+        <table name="factions">
+            <column name="id">6</column>
+            <column name="strName">Melonheads</column>
+            <column name="dictFactions">0=-100,1=-100,2=-100,3=-100,4=-100,5=-100,7=-100,8=-100,9=-100,10=-100,11=-100,12=-100,13=-100,14=-100,NSE:1=-100,NSE:2=100,NSE:3=-100,NSE:4=-100,NSE:5=-100,NSE:6=-100,NSE:7=-100</column>
+        </table>
+        <table name="factions">
+            <column name="id">7</column>
+            <column name="strName">Enfield Horrors</column>
+            <column name="dictFactions">0=-100,1=-100,2=-100,3=-100,4=-100,5=-100,6=-100,7=1,8=-100,9=-100,10=-100,11=-100,12=-100,13=-100,14=-100,NSE:1=-100,NSE:2=100,NSE:3=-100,NSE:4=-100,NSE:5=-100,NSE:6=-100,NSE:7=-100</column>
+        </table>
+        <table name="factions">
+            <column name="id">8</column>
+            <column name="strName">Deer</column>
+            <column name="dictFactions">0=-100,1=-100,2=-100,3=-100,4=-100,5=-100,6=-100,7=-100,8=100,9=1,10=-100,11=-100,12=-100,13=-100,14=-100,NSE:1=-100,NSE:2=100,NSE:3=-100,NSE:4=-100,NSE:5=-100,NSE:6=-100,NSE:7=-100</column>
+        </table>
+        <table name="factions">
+            <column name="id">9</column>
+            <column name="strName">Squirrels</column>
+            <column name="dictFactions">0=-100,1=-100,2=-100,3=-100,4=-100,5=-100,6=-100,7=-100,8=-100,9=100,10=-100,11=-100,12=-100,13=-100,14=-100,NSE:1=-100,NSE:2=100,NSE:3=-100,NSE:4=-100,NSE:5=-100,NSE:6=-100,NSE:7=-100</column>
+        </table>
+        <table name="factions">
+            <column name="id">10</column>
+            <column name="strName">Loners</column>
+            <column name="dictFactions">0=-100,1=-100,2=-100,3=-100,4=-100,5=-100,6=-100,7=-100,8=-100,9=-100,10=-100,11=-100,13=-100,14=-100,NSE:1=-100,NSE:2=100,NSE:3=-100,NSE:4=-100,NSE:5=-100,NSE:6=-100,NSE:7=-100</column>
+        </table>
+        <table name="factions">
+            <column name="id">11</column>
+            <column name="strName">ATN Warriors</column>
+            <column name="dictFactions">0=1,1=0,2=0,3=-5,4=-5,5=-10,6=-10,7=-10,8=-10,9=1=0,1=-10,2=0,3=-5,4=-5,5=-10,6=-10,7=-10,8=10,9=10,10=-100,11=10,12=-10,13=0,14=-10,NSE:1=10,NSE:2=100,NSE:3=-100,NSE:4=-100,NSE:5=10,NSE:6=1,NSE:7=-30</column>
+        </table>
+        <table name="factions">
+            <column name="id">12</column>
+            <column name="strName">King Elias</column>
+            <column name="dictFactions">0=2,1=-100,2=-3,3=-10,4=10,5=-10,6=-10,7=-10,8=0,9=0,10=-100,11=-10,12=10,13=0,14=-10,NSE:1=1,NSE:2=100,NSE:3=-100,NSE:4=-100,NSE:5=0,NSE:6=1,NSE:7=-30</column>
+        </table>
+		<table name="factions">
+            <column name="id">13</column>
+            <column name="strName">Martha's Army</column>
+            <column name="dictFactions">0=0,1=-10,2=0,3=-5,4=-5,5=-10,6=-10,7=-10,8=0,9=0,10=-100,11=0,12=0,13=10,14=-10,NSE:1=0,NSE:2=100,NSE:3=-100,NSE:4=-100,NSE:5=0,NSE:6=0,NSE:7=-30</column>
+        </table>
+		<table name="factions">
+            <column name="id">14</column>
+            <column name="strName">Feral Dogs</column>
+            <column name="dictFactions">0=-100,1=-100,2=-100,3=-100,4=-100,5=-100,6=-100,7=-100,8=-100,9=-100,10=-100,11=-100,12=-100,13=-100,14=1,NSE:1=-100,NSE:2=100,NSE:3=-100,NSE:4=-100,NSE:5=-100,NSE:6=-100,NSE:7=-100</column>
+        </table>
+    </database>
+</pma_xml_export>

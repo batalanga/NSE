@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+-
+- NeoScav Extended Override
+- Chiko
+-
+-->
+
+<pma_xml_export version="1.0">
+    <database name="neogame">
+        <table name="chargeprofiles">
+            <column name="nID">1</column>
+            <column name="strName">4 electric charge per use</column>
+            <column name="strItemID">10.3</column>
+            <column name="fPerUse">4</column>
+            <column name="fPerHour">0</column>
+            <column name="fPerHourEquipped">0</column>
+            <column name="fPerHex">0</column>
+            <column name="bDegrade">0</column>
+        </table>
+		<table name="chargeprofiles">
+            <column name="nID">3</column>
+            <column name="strName">1 electric charge per hour</column>
+            <column name="strItemID">10.3</column>
+            <column name="fPerUse">0</column>
+            <column name="fPerHour">1</column>
+            <column name="fPerHourEquipped">0</column>
+            <column name="fPerHex">0</column>
+            <column name="bDegrade">0</column>
+        </table>
+		<table name="chargeprofiles">
+            <column name="nID">6</column>
+            <column name="strName">6 electric charge per use</column>
+            <column name="strItemID">10.3</column>
+            <column name="fPerUse">6</column>
+            <column name="fPerHour">0</column>
+            <column name="fPerHourEquipped">0</column>
+            <column name="fPerHex">0</column>
+            <column name="bDegrade">0</column>
+        </table>
+        <table name="chargeprofiles">
+            <column name="nID">7</column>
+            <column name="strName">8 electric charge per use</column>
+            <column name="strItemID">10.3</column>
+            <column name="fPerUse">8</column>
+            <column name="fPerHour">0</column>
+            <column name="fPerHourEquipped">0</column>
+            <column name="fPerHex">0</column>
+            <column name="bDegrade">0</column>
+        </table>
+		<table name="chargeprofiles">
+            <column name="nID">26</column>
+            <column name="strName">2 electric charge per hour</column>
+            <column name="strItemID">10.3</column>
+            <column name="fPerUse">0</column>
+            <column name="fPerHour">2</column>
+            <column name="fPerHourEquipped">0</column>
+            <column name="fPerHex">0</column>
+            <column name="bDegrade">0</column>
+        </table>
+		<table name="chargeprofiles">
+            <column name="nID">32</column>
+            <column name="strName">XM54 cartridge used per hour equipped</column>
+            <column name="strItemID">40.0</column>
+            <column name="fPerUse">0</column>
+            <column name="fPerHour">0</column>
+            <column name="fPerHourEquipped">0.09</column>
+            <column name="fPerHex">0</column>
+            <column name="bDegrade">1</column>
+        </table>
+    </database>
+</pma_xml_export>
